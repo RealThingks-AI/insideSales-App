@@ -367,6 +367,7 @@ export const MeetingModal = ({
       setStartTime(format(timeInNewTz, "HH:mm"));
     }
     setTimezone(newTimezone);
+    setTzPopoverOpen(false);
   };
 
   // Get current date/time for validation
